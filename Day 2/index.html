@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 2</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <!-- <style>
+         div{
+        background-color:blueviolet 
+        text-decoration:brown;
+        text-transform:uppercase;
+        } -->
+    <!-- </div>
+    </style> -->
+    <!-- <style>
+        .btn
+     {
+        display:block;
+        padding: 16px;
+        border-radius : 8px;
+        border:none;
+        margin:10px auto;
+        font-size: 16px;
+        width: 120px;
+     }
+     .btn-small button
+     {
+        font-size: 10px;
+     }
+     .btn-big button
+     {
+        font-size: 24px;
+     }
+    </style> -->
+    <style>
+      /* .parent 
+        {
+            
+background-color: rgb(245, 138, 138);
+        } */
+      /* .parent ul:first-child {
+        background-color: rgb(227, 237, 47);
+        li:nth-child(2) {
+          background-color: rgb(166, 136, 249);
+        }
+      }
+      .parent ul:last-child {
+        background-color: bisque;
+        li:nth-child(2) {
+          background-color: rgb(230, 23, 23);
+        }
+      } */
+
+      /* .parent ul{
+background-color: #ef82de;
+        }
+        .parent ul{
+            background-color: rgb(195, 139, 248);
+        }
+        .parent ul{
+            background-color: #aff9c1;
+        }
+        .parent ul{
+            background-color: rgb(227, 230, 139);
+        } */
+        
+        *
+        {
+margin: 2px;
+        }
+        .parent1
+        {
+background-color: rgb(179, 225, 38);
+display:flex;
+flex-wrap: wrap;
+justify-content:space-between;
+        }
+        .parent2
+        {
+background-color: rgb(179, 225, 38);
+display:flex;
+flex-wrap: wrap;
+justify-content:space-evenly;
+        }
+        .parent3
+        {
+background-color: rgb(179, 225, 38);
+display:flex;
+flex-wrap: wrap;
+justify-content:space-around;
+        }
+        .parent4
+        {
+background-color: rgb(179, 225, 38);
+display:flex;
+flex-wrap: wrap;
+justify-content:flex-end;
+        }
+
+        .child
+        {
+background-color: goldenrod;
+border: 1px solid rgb(159, 7, 29);
+flex-basis: 40px;
+/* flex-grow: 1; */
+flex-shrink: 0;
+
+        }
+        .search-box
+        {
+            /* flex-grow:1 ; */
+            flex-shrink: 1;
+        }
+        /* .cart
+        {
+            flex-grow: 1;
+        } */
+
+    </style>
+  </head>
+  <body>
+    <!-- /* Inline Styling */
+    /* <div style="
+        background-color:rgb(228, 135, 85);
+        text-decoration:brown;
+        text-transform:uppercase;
+        ">
+        Content
+    </div> */
+    <div>Content</div>
+    <div id="heading">
+        Heading 1</div>
+        <div class="heading-two">Heading 2</div>
+        <div class="heading-two">
+            heading-two : kebab-case
+            headingTwo :camelCase
+            </div> -->
+    <!-- <div class="parent">
+Content
+           </div> -->
+    <!-- <div class="btn"><button>Contact Me</button></div>
+       <div class="btn-small"><button>Contact Me</button></div>
+       <div class="btn-big"><button>Contact Me</button></div> -->
+    <!-- <div class="parent">
+      <div>
+        <ul>
+          <li>Mobile</li>
+          <li>Laptop</li>
+          <li>Table</li>
+          <li>Chair</li>
+        </ul>
+        <ol>
+          <li>Apple</li>
+          <li>Banana</li>
+          <li>Papaya</li>
+          <li>Guava</li>
+        </ol>
+        <ul>
+          <li>Tea</li>
+          <li>Coffee</li>
+          <li>Juice</li>
+          <li>Water</li>
+        </ul>
+        <ol>
+          <li>Tea</li>
+          <li>Coffee</li>
+          <li>Juice</li>
+          <li>Water</li>
+        </ol>
+        <ul>
+          <li>Tea</li>
+          <li>Coffee</li>
+          <li>Juice</li>
+          <li>Water</li>
+        </ul>
+        <ol>
+          <li>Tea</li>
+          <li>Coffee</li>
+          <li>Juice</li>
+          <li>Water</li>
+        </ol>
+        <ul>
+          <li>Tea</li>
+          <li>Coffee</li>
+          <li>Juice</li>
+          <li>Water</li>
+        </ul>
+      </div>
+    </div> -->
+    <h2>Space-Between</h2>
+    <div class="parent1">
+        <div class="child">Logo</div>
+        <div class="child">Loc</div>
+        <div class="child search-box">....</div>
+        <div class="child cart">Cart</div>
+        <!-- <div class="child">5</div>
+        <div class="child">6</div>
+        <div class="child">7</div>
+        <div class="child">8</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+        <div class="child">7</div>
+        <div class="child">8</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+        <div class="child">7</div>
+        <div class="child">8</div> -->
+
+    </div>
+    <h2>Space-Evenly</h2>
+    <div class="parent2">
+        <div class="child">Logo</div>
+        <div class="child">Loc</div>
+        <div class="child search-box">....</div>
+        <div class="child cart">Cart</div>
+        </div>
+        <h2>Space-around</h2>
+        <div class="parent3">
+            <div class="child">Logo</div>
+            <div class="child">Loc</div>
+            <div class="child search-box">....</div>
+            <div class="child cart">Cart</div>
+        </div>
+        <h2>Flex-end</h2>
+        <div class="parent4">
+            <div class="child">Logo</div>
+            <div class="child">Loc</div>
+            <div class="child search-box">....</div>
+            <div class="child cart">Cart</div>
+        </div>
+  </body>
+</html>
